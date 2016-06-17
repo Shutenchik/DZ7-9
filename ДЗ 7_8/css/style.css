@@ -120,14 +120,6 @@
 		top: -213px;
 		margin: 0 auto;
 	}
-	.slaider--starts-here {
-		position: static;
-	}
-	.slaider-list--starts-here {
-		width: 34%;
-		margin: 10px auto;
-
-	}
 
 	.bg3 {
 		height: 600px;
@@ -220,9 +212,11 @@
 		top: 15px;
 		position: absolute;
 	}
-	.slaider--list {
-	}
-
+	
+	 .slaider-list--starts-here {
+		width: 35%;
+		margin: 10px auto;
+ 	}
 	.recent-updates-box {
 		margin: 36px 15px;
 		width: 85%;	
@@ -280,6 +274,9 @@
 		text-align: center;
 		padding-top: 40px ;
 	}
+
+
+
  }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -506,9 +503,6 @@
 		font-size: 30px;
 		padding: 27px  27px 0;
 	}
-	.slaider--list {
-		margin: 0px auto;
-	}
 
 	.slaider-list--starts-here {
 		width: 22%;
@@ -598,7 +592,7 @@
 	}
 
 	.menu__item--footer {
-		padding: 13px 12px;
+		padding: 13px 11px;
 		border: 0; 
 	}
 
@@ -848,12 +842,7 @@
 			padding: 0px 48px;
 			line-height: 24px;
 		}
-
-		.slaider--list {
-			margin: 0px auto;
-		}
 		.slaider-list--starts-here {
-			margin: 15px  auto;
 			width: 30%;
 		}
 
@@ -1172,10 +1161,6 @@
 
 	.starts-here__paragraph:after {
 		content: 'voluptates possimus, autem aliquid, sunt quam veniam molestiae eveniet? Dolores inventore doloribus,sint provident illum facere, neque temporibus, architecto ex animi est nisi assumenda eveniet eaque quae.';
-	}
-
-	.slaider--list {
-		margin: 0px auto;
 	}
 	
 	.slaider-list--starts-here {
