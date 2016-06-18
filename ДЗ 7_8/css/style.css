@@ -115,12 +115,11 @@
  	}
 
  	.slaider {
-		position: relative;
-		width: 25%;
+		width: 27%;
 		top: -213px;
+		position: relative;
 		margin: 0 auto;
 	}
-
 	.bg3 {
 		height: 600px;
 	}
@@ -212,8 +211,13 @@
 		top: 15px;
 		position: absolute;
 	}
+	.slaider--starts-here {
+		position: static;
+		margin: 25px auto;
+	}
 	
 	 .slaider-list--starts-here {
+
 		width: 35%;
 		margin: 10px auto;
  	}
@@ -389,7 +393,7 @@
 	}
 
 	.slaider--list {
-		width: 28%;
+		width: 30%;
 	}
 
 	.bg3 {
@@ -1352,7 +1356,9 @@
 	line-height: 24px;
 	width: 100%;
 }
-
+.slaider--list {
+	margin: 0 auto;
+}
 .slaider--list li {
 	display: inline-block;
 	list-style: none;
