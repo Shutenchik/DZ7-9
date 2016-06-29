@@ -37,8 +37,10 @@
 		background-color: #ececec;
 	
 	 }
+ 
 
- @media screen and (min-width: 0px) and (max-width: 479px) {
+ @media screen and (min-width: 0) and (max-width: 479px) {
+ 	
 	.responsive-width-box {
 		margin: 0 auto;
 		height: 100%;
@@ -173,7 +175,7 @@
  	}
 
  	.slaider {
-		width: 86px;
+		width: 90px;
 		height: 162px;
 		margin: 0 auto;
 		position: relative;
@@ -351,7 +353,7 @@
 		background: url(../img/logos320.png) no-repeat 0 52px;
 		height: 100%;
 		margin: 0 auto;
-		width: 84%;
+		width: 86%;
 	}
 
 	.logos__img {
@@ -390,6 +392,7 @@
  }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+	
 	.responsive-width-box {
 		width: 440px;
 		margin: 0 auto;
@@ -658,7 +661,7 @@
 	}
 
 	.slaider-list--starts-here {
-		width: 21%;
+		width: 23%;
 	}
 
 	.recent-updates__main-header {
@@ -779,7 +782,7 @@
 	}
 
 	.menu__item--footer {
-		padding: 13px 11px;
+		padding: 13px 10px;
 		border: 0; 
 	}
 
@@ -811,6 +814,8 @@
 
 }
 @media screen and (min-width: 768px) and (max-width: 959px) {
+
+	
 
 		.responsive-width-box {
 			height: 100%;
@@ -993,9 +998,11 @@
 			float: right;
 			position: relative;
 		}
-
+		.header-icon {
+			height: 40px;
+		}
 		.about-company__paragraph {
-			line-height: 25px;
+			line-height: 24px;
 			position: relative;
 			left: 20px;
 			padding-left: 50px;
@@ -1003,7 +1010,7 @@
 		}
 
 		.about-company__link {
-			padding: 7px 0;
+			padding: 5px 0;
 			font-size: 18px;
 		}
 
@@ -1087,9 +1094,9 @@
 		}
 
 		.recent-updates {
-			width: 96%;
 			height: 61px;
-			margin: 7px;	
+			margin: 7px;
+			width: 97%;	
 		}
 
 		.recent-updates__header {
@@ -1221,6 +1228,8 @@
 
 @media screen and (min-width: 960px)  and (max-width: 2400px) {
 
+
+
 	.responsive-width-box {
 		margin: 0 auto;
 		height: 100%;
@@ -1288,8 +1297,8 @@
 
 	.main-text__header {
 		font-size: 48px;
-		height: 60px;
 		letter-spacing: -2.45px;
+		height: 60px;
 	}
 
 	.main-text__header-second:after {
@@ -1318,7 +1327,7 @@
 	}
 
 	.slaider {
-		width: 65%;
+		width: 68%;
 		height: 168px;
 		margin: 0 auto;
 		clear: both;
@@ -1329,7 +1338,7 @@
 	.slaider--list {;
 		top: 85px;
 		position: relative;
-		width: 15%;
+		width: 17%;
 		margin: 0 auto;;
 		float: right;
 	}
@@ -1391,7 +1400,7 @@
 	.about-company__left {
 		float: left;
 	}
-
+	
 	.about-company__left__header-icon {
 		height: 25px;
 	}
@@ -1611,13 +1620,12 @@
 
 
  /*ОБЩИЕ СВОЙСТВА ДЛЯ ВСЕХ СКРИНОВ*/
- .wrapper {
- 	margin: 0 auto;;
- 	position: relative;
- 	width: 100%;
- 	overflow: hidden;
- }
-
+ 	.wrapper {
+ 		margin: 0 auto;;
+ 		position: relative;
+ 		width: 100%;
+ 		overflow: hidden;
+ 	}
  .header-section {
  	position: relative;
  	width: 100%;
